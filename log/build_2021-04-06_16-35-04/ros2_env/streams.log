@@ -1,0 +1,184 @@
+[0.012s] Invoking command in '/home/ruize/dev_ws/build/ros2_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/ros2_env -- -j4 -l4
+[0.038s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.180s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.204s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.353s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.459s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[0.459s] -- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[0.496s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.519s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.520s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.524s] -- Searching for dependencies of ignition-math6
+[0.525s] -- Looking for OGRE...
+[0.529s] -- Found Ogre Ghadamon (1.9.0)
+[0.529s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.538s] -- Looking for OGRE_Paging...
+[0.538s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.538s] -- Looking for OGRE_Terrain...
+[0.539s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.539s] -- Looking for OGRE_Property...
+[0.539s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.539s] -- Looking for OGRE_RTShaderSystem...
+[0.539s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.539s] -- Looking for OGRE_Volume...
+[0.539s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.539s] -- Looking for OGRE_Overlay...
+[0.539s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.625s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.626s] -- Looking for ignition-transport8 -- found version 8.2.0
+[0.626s] -- Searching for dependencies of ignition-transport8
+[0.644s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[0.654s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.660s] -- Checking for module 'libzmq >= 4'
+[0.673s] --   Found libzmq , version 4.3.2
+[0.702s] -- Checking for module 'uuid'
+[0.716s] --   Found uuid, version 2.34.0
+[0.744s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.744s] -- Searching for dependencies of ignition-msgs5
+[0.760s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.763s] -- Checking for module 'tinyxml2'
+[0.773s] --   Found tinyxml2, version 6.2.0
+[0.797s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.798s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.800s] -- Searching for dependencies of ignition-common3
+[0.800s] -- Looking for dlfcn.h - found
+[0.800s] -- Looking for libdl - found
+[0.806s] -- Searching for <ignition-common3> component [graphics]
+[0.807s] -- Looking for ignition-common3-graphics -- found version 3.11.1
+[0.809s] -- Searching for dependencies of ignition-common3-graphics
+[0.810s] -- Looking for ignition-math6 -- found version 6.8.0
+[0.811s] -- Looking for ignition-fuel_tools4 -- found version 4.3.0
+[0.811s] -- Searching for dependencies of ignition-fuel_tools4
+[0.838s] -- Checking for module 'jsoncpp'
+[0.848s] --   Found jsoncpp, version 1.7.4
+[0.878s] -- Checking for module 'libzip'
+[0.890s] --   Found libzip, version 1.5.1
+[0.920s] -- Looking for ignition-common3 -- found version 3.11.1
+[0.920s] -- Looking for ignition-msgs5 -- found version 5.7.0
+[0.921s] -- Gazebo version: 11.3
+[0.927s] -- Found gazebo_plugins: 3.5.0 (/opt/ros/foxy/share/gazebo_plugins/cmake)
+[1.141s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.186s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.187s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.190s] -- Configured cppcheck include dirs: /home/ruize/dev_ws/src/ros2_env/include
+[1.190s] -- Configured cppcheck exclude dirs and/or files: 
+[1.192s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.192s] -- Configured cpplint exclude dirs and/or files: 
+[1.194s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.194s] -- Added test 'lint_cmake' to check CMake code style
+[1.195s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.196s] -- Added test 'uncrustify' to check C / C++ code style
+[1.196s] -- Configured uncrustify additional arguments: 
+[1.197s] -- Added test 'xmllint' to check XML markup files
+[1.203s] -- Configuring done
+[1.234s] -- Generating done
+[1.236s] -- Build files have been written to: /home/ruize/dev_ws/build/ros2_env
+[1.255s] [35m[1mScanning dependencies of target Hydrodynamics[0m
+[1.387s] [  7%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/plugins/Gazebo.cc.o[0m
+[1.387s] [ 14%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/plugins/Geometry.cc.o[0m
+[1.387s] [ 21%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/plugins/PhysicalConstants.cc.o[0m
+[1.393s] [ 28%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/plugins/Physics.cc.o[0m
+[1.449s] [ 35%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/plugins/Utilities.cc.o[0m
+[1.560s] [ 42%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/plugins/Wavefield.cc.o[0m
+[3.363s] [ 50%] [32mBuilding CXX object CMakeFiles/Hydrodynamics.dir/plugins/WavefieldEntity.cc.o[0m
+[6.850s] [01m[K/home/ruize/dev_ws/src/ros2_env/plugins/Wavefield.cc:[m[K In constructor ‘[01m[Kasv::WaveParametersPrivate::WaveParametersPrivate()[m[K’:
+[6.850s] [01m[K/home/ruize/dev_ws/src/ros2_env/plugins/Wavefield.cc:116:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kasv::WaveParametersPrivate::wavenumber[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+[6.850s]   116 |     public: double [01;35m[Kwavenumber[m[K;
+[6.850s]       |                    [01;35m[K^~~~~~~~~~[m[K
+[6.850s] [01m[K/home/ruize/dev_ws/src/ros2_env/plugins/Wavefield.cc:104:20:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble asv::WaveParametersPrivate::tau[m[K’ [[01;35m[K-Wreorder[m[K]
+[6.850s]   104 |     public: double [01;35m[Ktau[m[K;
+[6.851s]       |                    [01;35m[K^~~[m[K
+[6.851s] [01m[K/home/ruize/dev_ws/src/ros2_env/plugins/Wavefield.cc:58:13:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+[6.851s]    58 |     public: [01;35m[KWaveParametersPrivate[m[K():
+[6.851s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[6.894s] /home/ruize/dev_ws/src/ros2_env/plugins/Wavefield.cc: In instantiation of ‘[01m[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)> [with auto:24 = Eigen::Matrix<double, 2, 1>; auto:25 = Eigen::Matrix<double, 2, 1>; auto:26 = double; auto:27 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:28 = Eigen::Matrix<double, 2, 1>; auto:29 = Eigen::Matrix<double, 2, 2>][m[K’:
+[6.894s] [01m[K/home/ruize/dev_ws/src/ros2_env/plugins/Wavefield.cc:619:20:[m[K   required from ‘[01m[Kasv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:30&, auto:31, auto:32, auto:33, auto:34&, auto:35, auto:36)> [with auto:30 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::<lambda(auto:24, auto:25, auto:26, auto:27&, auto:28&, auto:29&)>; auto:31 = Eigen::Matrix<double, 2, 1>; auto:32 = Eigen::Matrix<double, 2, 1>; auto:33 = double; auto:34 = asv::WavefieldSampler::ComputeDepthDirectly(const asv::WaveParameters&, const Vector3d&, double, double)::WaveParams; auto:35 = double; auto:36 = double][m[K’
+[6.894s] [01m[K/home/ruize/dev_ws/src/ros2_env/plugins/Wavefield.cc:644:67:[m[K   required from here
+[6.894s] [01m[K/home/ruize/dev_ws/src/ros2_env/plugins/Wavefield.cc:577:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[6.894s]   577 |       for (auto&& i = 0; [01;35m[Ki < n[m[K; ++i) // NOLINT
+[6.894s]       |                          [01;35m[K~~^~~[m[K
+[14.218s] [ 57%] [32m[1mLinking CXX shared library libHydrodynamics.so[0m
+[14.614s] [ 57%] Built target Hydrodynamics
+[14.628s] [35m[1mScanning dependencies of target WavefieldVisualPlugin[0m
+[14.629s] [35m[1mScanning dependencies of target WavefieldModelPlugin[0m
+[14.643s] [ 64%] [32mBuilding CXX object CMakeFiles/WavefieldVisualPlugin.dir/plugins/WavefieldVisualPlugin.cc.o[0m
+[14.653s] [ 71%] [32mBuilding CXX object CMakeFiles/WavefieldModelPlugin.dir/plugins/WavefieldModelPlugin.cc.o[0m
+[22.418s] [ 78%] [32m[1mLinking CXX shared library libWavefieldModelPlugin.so[0m
+[22.728s] [ 78%] Built target WavefieldModelPlugin
+[22.742s] [35m[1mScanning dependencies of target wavegauge_plugin[0m
+[22.837s] [ 85%] [32mBuilding CXX object CMakeFiles/wavegauge_plugin.dir/plugins/wavegauge_plugin.cc.o[0m
+[26.652s] [ 92%] [32m[1mLinking CXX shared library libWavefieldVisualPlugin.so[0m
+[27.002s] [ 92%] Built target WavefieldVisualPlugin
+[30.478s] [100%] [32m[1mLinking CXX shared library libwavegauge_plugin.so[0m
+[30.778s] [100%] Built target wavegauge_plugin
+[30.787s] Invoked command in '/home/ruize/dev_ws/build/ros2_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/ros2_env -- -j4 -l4
+[30.842s] Invoking command in '/home/ruize/dev_ws/build/ros2_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/ros2_env
+[30.850s] -- Install configuration: ""
+[30.850s] -- Installing: /home/ruize/dev_ws/install/ros2_env/lib/libHydrodynamics.so
+[30.852s] -- Set runtime path of "/home/ruize/dev_ws/install/ros2_env/lib/libHydrodynamics.so" to ""
+[30.852s] -- Installing: /home/ruize/dev_ws/install/ros2_env/lib/libWavefieldModelPlugin.so
+[30.854s] -- Set runtime path of "/home/ruize/dev_ws/install/ros2_env/lib/libWavefieldModelPlugin.so" to ""
+[30.854s] -- Installing: /home/ruize/dev_ws/install/ros2_env/lib/libWavefieldVisualPlugin.so
+[30.856s] -- Set runtime path of "/home/ruize/dev_ws/install/ros2_env/lib/libWavefieldVisualPlugin.so" to ""
+[30.856s] -- Installing: /home/ruize/dev_ws/install/ros2_env/lib/libwavegauge_plugin.so
+[30.858s] -- Set runtime path of "/home/ruize/dev_ws/install/ros2_env/lib/libwavegauge_plugin.so" to ""
+[30.859s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models
+[30.859s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves
+[30.859s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes
+[30.859s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes/mesh.dae
+[30.859s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes/mesh_below.dae
+[30.860s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes/mesh.blend
+[30.860s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/model.xacro.erb
+[30.860s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/model.xacro
+[30.860s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/model.config
+[30.860s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials
+[30.860s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/programs
+[30.860s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/programs/GerstnerWaves.frag
+[30.860s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/programs/GerstnerWaves.vert
+[30.860s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/scripts
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/scripts/waves.material
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_rt.jpg
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_dn.jpg
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_bk.jpg
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_up.jpg
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_fr.jpg
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds.jpg
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/wave_normals.dds
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_lf.jpg
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/meshes
+[30.861s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/meshes/sandisland.dae
+[30.862s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/model.sdf
+[30.862s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/heightmap.png
+[30.862s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/model.config
+[30.862s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/materials
+[30.862s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/materials/textures
+[30.862s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/materials/textures/sandisland.png
+[30.862s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds
+[30.875s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/ocean_waves.xacro
+[30.875s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/example_course.world.xacro
+[30.875s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/my_world.world
+[30.875s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/sandisland.xacro
+[30.875s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/launch
+[30.875s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/launch/ros2_env_launch.py
+[30.875s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ament_index/resource_index/package_run_dependencies/ros2_env
+[30.875s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ament_index/resource_index/parent_prefix_path/ros2_env
+[30.875s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/ament_prefix_path.sh
+[30.875s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/ament_prefix_path.dsv
+[30.876s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/path.sh
+[30.876s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/path.dsv
+[30.876s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.bash
+[30.876s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.sh
+[30.876s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.zsh
+[30.876s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.dsv
+[30.876s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/package.dsv
+[30.876s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ament_index/resource_index/packages/ros2_env
+[30.876s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/cmake/ros2_envConfig.cmake
+[30.876s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/cmake/ros2_envConfig-version.cmake
+[30.876s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/package.xml
+[30.876s] Invoked command in '/home/ruize/dev_ws/build/ros2_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/ros2_env

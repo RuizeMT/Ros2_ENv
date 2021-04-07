@@ -1,0 +1,69 @@
+[0.015s] Invoking command in '/home/ruize/dev_ws/build/ros2_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/ros2_env -- -j4 -l4
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/WavefieldModelPlugin.dir/plugins/WavefieldModelPlugin.cc.o[0m
+[1.117s] [01m[K/home/ruize/dev_ws/src/ros2_env/plugins/WavefieldModelPlugin.cc:199:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K-Wcomment[m[K]
+[1.117s]   199 |     [01;35m[K/[m[K/ GZ_ASSERT(wavefieldEntity->GetWavefield() != nullptr, \
+[1.117s]       |     [01;35m[K^[m[K
+[7.139s] [100%] [32m[1mLinking CXX shared library libWavefieldModelPlugin.so[0m
+[7.424s] [100%] Built target WavefieldModelPlugin
+[7.433s] Invoked command in '/home/ruize/dev_ws/build/ros2_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/ros2_env -- -j4 -l4
+[7.463s] Invoking command in '/home/ruize/dev_ws/build/ros2_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/ros2_env
+[7.469s] -- Install configuration: ""
+[7.469s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/library_path.sh
+[7.470s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/library_path.dsv
+[7.470s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models
+[7.470s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves
+[7.471s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes
+[7.471s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes/mesh.dae
+[7.472s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes/mesh_below.dae
+[7.472s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes/mesh.blend
+[7.473s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/model.xacro.erb
+[7.473s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/model.xacro
+[7.473s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/model.config
+[7.473s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials
+[7.473s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/programs
+[7.473s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/programs/GerstnerWaves.frag
+[7.473s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/programs/GerstnerWaves.vert
+[7.473s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/scripts
+[7.476s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/scripts/waves.material
+[7.476s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures
+[7.476s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_rt.jpg
+[7.476s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_dn.jpg
+[7.476s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_bk.jpg
+[7.476s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_up.jpg
+[7.476s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_fr.jpg
+[7.477s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds.jpg
+[7.478s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/wave_normals.dds
+[7.478s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_lf.jpg
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/meshes
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/meshes/sandisland.dae
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/model.sdf
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/heightmap.png
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/model.config
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/materials
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/materials/textures
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/materials/textures/sandisland.png
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds
+[7.479s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/ocean_waves.xacro
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/example_course.world.xacro
+[7.479s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/my_world.world
+[7.479s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/sandisland.xacro
+[7.480s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/launch
+[7.480s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/launch/ros2_env_launch.py
+[7.480s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ament_index/resource_index/package_run_dependencies/ros2_env
+[7.480s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ament_index/resource_index/parent_prefix_path/ros2_env
+[7.480s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/ament_prefix_path.sh
+[7.480s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/ament_prefix_path.dsv
+[7.480s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/path.sh
+[7.480s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/path.dsv
+[7.480s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.bash
+[7.480s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.sh
+[7.480s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.zsh
+[7.480s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.dsv
+[7.480s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/package.dsv
+[7.480s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ament_index/resource_index/packages/ros2_env
+[7.480s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/cmake/ament_cmake_export_libraries-extras.cmake
+[7.480s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/cmake/ros2_envConfig.cmake
+[7.481s] -- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/cmake/ros2_envConfig-version.cmake
+[7.481s] -- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/package.xml
+[7.481s] Invoked command in '/home/ruize/dev_ws/build/ros2_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ruize/dev_ws/build/ros2_env

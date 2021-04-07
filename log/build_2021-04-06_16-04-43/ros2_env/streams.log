@@ -1,0 +1,10 @@
+[0.015s] Invoking command in '/home/ruize/dev_ws/build/ros2_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/ros2_env -- -j4 -l4
+[0.041s] CMake Error at CMakeLists.txt:44:
+[0.041s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.041s] 
+[0.041s] 
+[0.042s] -- Configuring incomplete, errors occurred!
+[0.042s] See also "/home/ruize/dev_ws/build/ros2_env/CMakeFiles/CMakeOutput.log".
+[0.042s] See also "/home/ruize/dev_ws/build/ros2_env/CMakeFiles/CMakeError.log".
+[0.042s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.043s] Invoked command in '/home/ruize/dev_ws/build/ros2_env' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/ros2_env -- -j4 -l4

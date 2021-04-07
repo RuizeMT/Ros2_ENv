@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/ruize/dev_ws/build/ros2_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/ros2_env -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/ros2_env
+[0.035s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.189s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.223s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.315s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.354s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.355s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.461s] -- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)
+[0.470s] CMake Error at CMakeLists.txt:22 (find_package):
+[0.470s]   By not providing "Findgazebo_dev.cmake" in CMAKE_MODULE_PATH this project
+[0.470s]   has asked CMake to find a package configuration file provided by
+[0.470s]   "gazebo_dev", but CMake did not find one.
+[0.470s] 
+[0.470s]   Could not find a package configuration file provided by "gazebo_dev" with
+[0.470s]   any of the following names:
+[0.470s] 
+[0.470s]     gazebo_devConfig.cmake
+[0.470s]     gazebo_dev-config.cmake
+[0.470s] 
+[0.470s]   Add the installation prefix of "gazebo_dev" to CMAKE_PREFIX_PATH or set
+[0.470s]   "gazebo_dev_DIR" to a directory containing one of the above files.  If
+[0.470s]   "gazebo_dev" provides a separate development package or SDK, be sure it has
+[0.470s]   been installed.
+[0.470s] 
+[0.470s] 
+[0.472s] -- Configuring incomplete, errors occurred!
+[0.472s] See also "/home/ruize/dev_ws/build/ros2_env/CMakeFiles/CMakeOutput.log".
+[0.472s] See also "/home/ruize/dev_ws/build/ros2_env/CMakeFiles/CMakeError.log".
+[0.476s] Invoked command in '/home/ruize/dev_ws/build/ros2_env' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ruize/dev_ws/src/ros2_env -DCMAKE_INSTALL_PREFIX=/home/ruize/dev_ws/install/ros2_env

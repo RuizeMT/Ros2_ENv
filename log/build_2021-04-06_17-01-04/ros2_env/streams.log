@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/ruize/dev_ws/build/ros2_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/ros2_env -- -j4 -l4
+[0.039s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.189s] CMake Error at CMakeLists.txt:20 (find_package):
+[0.189s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.189s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.189s]   CMake did not find one.
+[0.189s] 
+[0.189s]   Could not find a package configuration file provided by "catkin" with any
+[0.189s]   of the following names:
+[0.189s] 
+[0.189s]     catkinConfig.cmake
+[0.189s]     catkin-config.cmake
+[0.189s] 
+[0.189s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.189s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.189s]   provides a separate development package or SDK, be sure it has been
+[0.190s]   installed.
+[0.190s] 
+[0.190s] 
+[0.190s] -- Configuring incomplete, errors occurred!
+[0.190s] See also "/home/ruize/dev_ws/build/ros2_env/CMakeFiles/CMakeOutput.log".
+[0.190s] See also "/home/ruize/dev_ws/build/ros2_env/CMakeFiles/CMakeError.log".
+[0.192s] make: *** [Makefile:578: cmake_check_build_system] Error 1
+[0.194s] Invoked command in '/home/ruize/dev_ws/build/ros2_env' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ruize/dev_ws/build/ros2_env -- -j4 -l4

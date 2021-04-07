@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.001357] (ros2_env) JobQueued: {'identifier': 'ros2_env', 'dependencies': OrderedDict()}
+[0.001396] (ros2_env) JobStarted: {'identifier': 'ros2_env'}
+[0.011643] (ros2_env) JobProgress: {'identifier': 'ros2_env', 'progress': 'cmake'}
+[0.013332] (ros2_env) JobProgress: {'identifier': 'ros2_env', 'progress': 'build'}
+[0.013370] (ros2_env) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ruize/dev_ws/build/ros2_env', '--', '-j4', '-l4'], 'cwd': '/home/ruize/dev_ws/build/ros2_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/60/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ruize/dev_ws/install/ros2_env/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ruize/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.55.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/60/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/60/usr/share/code/code'), ('MANAGERPID', '1341'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11513'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/dev_ws/install:/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:76894'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/7311,unix/ruize-VirtualBox:/tmp/.ICE-unix/7311'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '6218bbcc115049588c6e73c2fe314019'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8587c87873.sock'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/60/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ruize/dev_ws/install/ros2_env:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1a53ccdb-c22a-4bde-8e30-4ad66fb84a40'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/ros2_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/dev_ws/install/ros2_env:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.040516] (ros2_env) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.066501] (ros2_env) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100080] (-) TimerEvent: {}
+[0.194283] (ros2_env) StdoutLine: {'line': b'-- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.200749] (-) TimerEvent: {}
+[0.220017] (ros2_env) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.222691] (ros2_env) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.301193] (-) TimerEvent: {}
+[0.318178] (ros2_env) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.354142] (ros2_env) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.355060] (ros2_env) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.402743] (-) TimerEvent: {}
+[0.463687] (ros2_env) StdoutLine: {'line': b'-- Found rclpy: 1.0.5 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.464175] (ros2_env) StdoutLine: {'line': b'-- Found gazebo_ros: 3.5.0 (/opt/ros/foxy/share/gazebo_ros/cmake)\n'}
+[0.501055] (ros2_env) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.503501] (-) TimerEvent: {}
+[0.543332] (ros2_env) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[0.544772] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.547912] (ros2_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.549466] (ros2_env) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.554296] (ros2_env) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.554582] (ros2_env) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.570945] (ros2_env) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.571119] (ros2_env) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.571215] (ros2_env) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.571263] (ros2_env) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.571359] (ros2_env) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.571408] (ros2_env) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.571452] (ros2_env) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.571533] (ros2_env) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.571577] (ros2_env) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.571666] (ros2_env) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.571713] (ros2_env) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.571803] (ros2_env) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.605584] (-) TimerEvent: {}
+[0.658229] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.659223] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.0\n'}
+[0.659735] (ros2_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.677328] (ros2_env) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[0.687047] (ros2_env) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.690654] (ros2_env) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.701481] (ros2_env) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[0.705715] (-) TimerEvent: {}
+[0.734150] (ros2_env) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.747417] (ros2_env) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[0.777291] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.777538] (ros2_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.793034] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.796784] (ros2_env) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.805869] (-) TimerEvent: {}
+[0.807281] (ros2_env) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[0.837029] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.837907] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[0.838026] (ros2_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.838074] (ros2_env) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.838127] (ros2_env) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.844545] (ros2_env) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.844865] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.11.1\n'}
+[0.845463] (ros2_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.845785] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.8.0\n'}
+[0.846925] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.3.0\n'}
+[0.847414] (ros2_env) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.870806] (ros2_env) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.883264] (ros2_env) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[0.906079] (-) TimerEvent: {}
+[0.913536] (ros2_env) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.925538] (ros2_env) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[0.955791] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.11.1\n'}
+[0.956237] (ros2_env) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.7.0\n'}
+[0.957221] (ros2_env) StdoutLine: {'line': b'-- Gazebo version: 11.3\n'}
+[0.961160] (ros2_env) StdoutLine: {'line': b'-- Found gazebo_plugins: 3.5.0 (/opt/ros/foxy/share/gazebo_plugins/cmake)\n'}
+[1.006764] (-) TimerEvent: {}
+[1.107246] (-) TimerEvent: {}
+[1.204732] (ros2_env) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.207686] (-) TimerEvent: {}
+[1.253450] (ros2_env) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.255745] (ros2_env) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.257555] (ros2_env) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ruize/dev_ws/src/ros2_env/include\n'}
+[1.257681] (ros2_env) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.260004] (ros2_env) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.260164] (ros2_env) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.260576] (ros2_env) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.261855] (ros2_env) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.262583] (ros2_env) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.264517] (ros2_env) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.264603] (ros2_env) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.265009] (ros2_env) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.267300] (ros2_env) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.291046] (ros2_env) StdoutLine: {'line': b'-- Generating done\n'}
+[1.292874] (ros2_env) StdoutLine: {'line': b'-- Build files have been written to: /home/ruize/dev_ws/build/ros2_env\n'}
+[1.308182] (-) TimerEvent: {}
+[1.341453] (ros2_env) StdoutLine: {'line': b'[ 50%] Built target WavefieldVisualPlugin\n'}
+[1.342436] (ros2_env) StdoutLine: {'line': b'[100%] Built target WavefieldModelPlugin\n'}
+[1.353100] (ros2_env) CommandEnded: {'returncode': 0}
+[1.375087] (ros2_env) JobProgress: {'identifier': 'ros2_env', 'progress': 'install'}
+[1.382975] (ros2_env) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ruize/dev_ws/build/ros2_env'], 'cwd': '/home/ruize/dev_ws/build/ros2_env', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SDKMAN_VERSION', '5.11.0+644'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ruize'), ('SSH_AGENT_PID', '1562'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/60/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ruize/dev_ws/install/ros2_env/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ruize/px4_ros_com_ros2/install/px4_ros_com/lib:/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruize'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ruize/dev_ws/src'), ('TERM_PROGRAM_VERSION', '1.55.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', 'true'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GRADLE_HOME', '/home/ruize/.sdkman/candidates/gradle/current'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/60/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/60/usr/share/code/code'), ('MANAGERPID', '1341'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11513'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ruize/dev_ws/install:/home/ruize/px4_ros_com_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruize'), ('SDKMAN_CANDIDATES_API', 'https://api.sdkman.io/2'), ('JOURNAL_STREAM', '8:76894'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruize'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ruize/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/home/ruize/.sdkman/candidates/gradle/current/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ruize/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ruize-VirtualBox:@/tmp/.ICE-unix/7311,unix/ruize-VirtualBox:/tmp/.ICE-unix/7311'), ('SDKMAN_CANDIDATES_DIR', '/home/ruize/.sdkman/candidates'), ('INVOCATION_ID', '6218bbcc115049588c6e73c2fe314019'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8587c87873.sock'), ('SDKMAN_DIR', '/home/ruize/.sdkman'), ('SDKMAN_PLATFORM', 'LinuxX64'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/snap/code/60/usr/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/ruize/dev_ws/install/ros2_env:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1a53ccdb-c22a-4bde-8e30-4ad66fb84a40'), ('DISABLE_WAYLAND', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruize/dev_ws/build/ros2_env'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ruize/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ruize/dev_ws/install/ros2_env:/home/ruize/px4_ros_com_ros2/install/px4_ros_com:/home/ruize/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[1.389846] (ros2_env) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.389983] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/library_path.sh\n'}
+[1.390196] (ros2_env) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/library_path.dsv\n'}
+[1.390357] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/lib/libWavefieldModelPlugin.so\n'}
+[1.390662] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/lib/libWavefieldVisualPlugin.so\n'}
+[1.390768] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models\n'}
+[1.390905] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves\n'}
+[1.390964] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes\n'}
+[1.391018] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes/mesh.dae\n'}
+[1.391094] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes/mesh_below.dae\n'}
+[1.391185] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/meshes/mesh.blend\n'}
+[1.391239] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/model.xacro.erb\n'}
+[1.391337] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/model.xacro\n'}
+[1.391385] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/model.config\n'}
+[1.391429] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials\n'}
+[1.391473] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/programs\n'}
+[1.391525] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/programs/GerstnerWaves.frag\n'}
+[1.391576] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/programs/GerstnerWaves.vert\n'}
+[1.391629] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/scripts\n'}
+[1.391732] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/scripts/waves.material\n'}
+[1.391789] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures\n'}
+[1.391833] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_rt.jpg\n'}
+[1.391944] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_dn.jpg\n'}
+[1.392001] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_bk.jpg\n'}
+[1.392103] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_up.jpg\n'}
+[1.392151] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_fr.jpg\n'}
+[1.392196] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds.jpg\n'}
+[1.392294] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/wave_normals.dds\n'}
+[1.392351] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/ocean_waves/materials/textures/clouds_lf.jpg\n'}
+[1.392409] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland\n'}
+[1.392513] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/meshes\n'}
+[1.392568] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/meshes/sandisland.dae\n'}
+[1.392628] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/model.sdf\n'}
+[1.392734] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/heightmap.png\n'}
+[1.392786] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/model.config\n'}
+[1.392830] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/materials\n'}
+[1.392877] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/materials/textures\n'}
+[1.392922] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/models/sandisland/materials/textures/sandisland.png\n'}
+[1.392966] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds\n'}
+[1.393009] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/ocean_waves.xacro\n'}
+[1.393056] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/example_course.world.xacro\n'}
+[1.393101] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/my_world.world\n'}
+[1.393144] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/worlds/sandisland.xacro\n'}
+[1.393190] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/launch\n'}
+[1.393235] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/launch/ros2_env_launch.py\n'}
+[1.393279] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ament_index/resource_index/package_run_dependencies/ros2_env\n'}
+[1.393321] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ament_index/resource_index/parent_prefix_path/ros2_env\n'}
+[1.393367] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/ament_prefix_path.sh\n'}
+[1.393411] (ros2_env) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/ament_prefix_path.dsv\n'}
+[1.393453] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/path.sh\n'}
+[1.393920] (ros2_env) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/environment/path.dsv\n'}
+[1.394141] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.bash\n'}
+[1.394334] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.sh\n'}
+[1.394598] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.zsh\n'}
+[1.395702] (ros2_env) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/local_setup.dsv\n'}
+[1.396046] (ros2_env) StdoutLine: {'line': b'-- Installing: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/package.dsv\n'}
+[1.396127] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ament_index/resource_index/packages/ros2_env\n'}
+[1.396259] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.396348] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/cmake/ros2_envConfig.cmake\n'}
+[1.396488] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/cmake/ros2_envConfig-version.cmake\n'}
+[1.396548] (ros2_env) StdoutLine: {'line': b'-- Up-to-date: /home/ruize/dev_ws/install/ros2_env/share/ros2_env/package.xml\n'}
+[1.396606] (ros2_env) CommandEnded: {'returncode': 0}
+[1.408270] (-) TimerEvent: {}
+[1.449159] (ros2_env) JobEnded: {'identifier': 'ros2_env', 'rc': 0}
+[1.449735] (-) EventReactorShutdown: {}

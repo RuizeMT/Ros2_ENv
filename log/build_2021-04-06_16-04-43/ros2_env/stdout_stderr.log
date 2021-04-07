@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:44:
+  Parse error.  Function missing ending ")".  End of file reached.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ruize/dev_ws/build/ros2_env/CMakeFiles/CMakeOutput.log".
+See also "/home/ruize/dev_ws/build/ros2_env/CMakeFiles/CMakeError.log".
+make: *** [Makefile:310: cmake_check_build_system] Error 1

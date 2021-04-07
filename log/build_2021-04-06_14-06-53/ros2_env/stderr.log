@@ -1,0 +1,7 @@
+[01m[K/home/ruize/dev_ws/src/ros2_env/plugins/WavefieldModelPlugin.cc:27:10:[m[K [01;31m[Kfatal error: [m[Kros2_env/WavefieldModelPlugin.hh: No such file or directory
+   27 | #include [01;31m[K"ros2_env/WavefieldModelPlugin.hh"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/WavefieldModelPlugin.dir/build.make:63: CMakeFiles/WavefieldModelPlugin.dir/plugins/WavefieldModelPlugin.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/WavefieldModelPlugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

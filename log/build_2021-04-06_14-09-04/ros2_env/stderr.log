@@ -1,0 +1,3 @@
+[01m[K/home/ruize/dev_ws/src/ros2_env/plugins/WavefieldModelPlugin.cc:199:5:[m[K [01;35m[Kwarning: [m[Kmulti-line comment [[01;35m[K-Wcomment[m[K]
+  199 |     [01;35m[K/[m[K/ GZ_ASSERT(wavefieldEntity->GetWavefield() != nullptr, \
+      |     [01;35m[K^[m[K
